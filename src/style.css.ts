@@ -63,6 +63,11 @@ const rowText = style({
   padding: '1rem 0',
 });
 
+const positiveBtn = style({
+  backgroundColor: '#DFF8E5',
+  color: '#0D9336',
+});
+
 export const appSt = {
   bottomBtn,
   container,
@@ -72,4 +77,5 @@ export const appSt = {
   boxRow2,
   boxRow2text,
   rowText,
+  positiveBtn,
 };
