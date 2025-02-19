@@ -214,7 +214,13 @@ export const App = () => {
       <Gap size={96} />
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile loading={loading} block view="primary" onClick={submit}>
+        <ButtonMobile
+          loading={loading}
+          block
+          view="primary"
+          onClick={submit}
+          hint={`Итого: ${added ? 399 + 150 : 399} ₽ в месяц`}
+        >
           К подключению
         </ButtonMobile>
       </div>
