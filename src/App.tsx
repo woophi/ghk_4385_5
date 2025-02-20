@@ -161,7 +161,7 @@ export const App = () => {
         </div>
 
         <Typography.TitleResponsive style={{ marginTop: '1rem' }} tag="h3" view="small" font="system" weight="bold">
-          Добавьте к своей подписке
+          Для инвесторов
         </Typography.TitleResponsive>
 
         <div className={appSt.boxRow2}>
